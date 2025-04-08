@@ -1,0 +1,50 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# IDEs and editors
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Model checkpoints & weights
+*.h5
+*.hdf5
+*.ckpt
+*.pb
+
+# Logs and plots
+*.log
+*.out
+*.png
+*.jpg
+
+# Datasets
+dataset/
+*.zip
+*.tar
+*.tar.gz
+*.mp4
+*.avi
+
+# Notebook checkpoints (optional)
+.ipynb_checkpoints/
+
+# gdown cache (if used)
+gdown.*
+
+# Test outputs / temp files
+*.tmp
+*.bak
+
+# Jupyter runtime
+~$*
