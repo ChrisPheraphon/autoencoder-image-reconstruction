@@ -22,9 +22,6 @@ You need to install these Python libraries:
 
 pip install tensorflow numpy opencv-python matplotlib
 
-shell
-Copy
-Edit
 
 ## ▶️ How to Run
 
@@ -32,19 +29,12 @@ Edit
 
 git clone https://github.com/ChrisPheraphon/autoencoder-image-reconstruction.git cd autoencoder-image-reconstruction
 
-shell
-Copy
-Edit
 
 Put your images in the correct folder (check the code or instructions in the project).
 
 ### Run the main Python file:
 
 python autoencoder.py
-
-markdown
-Copy
-Edit
 
 The model will train using your images.
 
@@ -59,9 +49,6 @@ You can compare them to see how well it works.
 
 autoencoder-image-reconstruction/ │ ├── autoencoder.py # Main file to run the model ├── image_utils.py # Handles image loading and resizing ├── images/ # Folder where you put your input images └── reconstructed/ # Folder where output images are saved
 
-pgsql
-Copy
-Edit
 
 ## 💬 Notes
 
